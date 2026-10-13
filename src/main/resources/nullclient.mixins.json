@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.nullclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "CameraMixin",
+    "EntityMixin",
+    "ClientPlayerEntityMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
